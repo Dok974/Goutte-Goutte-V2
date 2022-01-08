@@ -1,0 +1,52 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.jumbotron{
+    background-image: url("../img/Background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img1{
+    content: url("../img/Galets-1.jpg");
+    margin: 0 auto;
+}
+.img2{
+    content: url("../img/Pendentif-2.jpg");
+}
+.img3{
+    content: url("../img/Cat.jpg");
+}
+.rendu-img{
+    width: 100%;
+    max-width: 250px;
+    max-height: 200px;
+    height: auto;
+    border-radius: 20px;
+}
+.Border{
+    border: thick double #FCEDDA; 
+}
+.centrer{
+    display: inline; 
+    flex-direction: row-reverse;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
