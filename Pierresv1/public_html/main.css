@@ -1,38 +1,44 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.jumbotron{
-    background-image: url("../img/Background.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+    /* Padding below the footer and lighter body text */
+   padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
 }
-.img1{
-    content: url("../img/Galets-1.jpg");
-    margin: 0 auto;
+/* ==========================================================================
+   Navbar
+   ========================================================================== */
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
 }
-.img2{
-    content: url("../img/Pendentif-2.jpg");
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
 }
-.img3{
-    content: url("../img/Cat.jpg");
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
 }
-.rendu-img{
-    width: 100%;
-    max-width: 250px;
-    max-height: 200px;
-    height: auto;
-    border-radius: 20px;
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
 }
-.Border{
-    border: thick double #FCEDDA; 
+.navbar {
+  margin-bottom: 20px;
 }
-.centrer{
-    display: inline; 
-    flex-direction: row-reverse;
-}
+
 
 
 
